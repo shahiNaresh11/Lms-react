@@ -20,7 +20,9 @@ function Footer() {
                     <a className='hover:text-yellow-500 transition-all ease-in out duration-300'>
                         <BsLinkedin />
                     </a>
-
+                    <a className='hover:text-yellow-500 transition-all ease-in out duration-300'>
+                        <BsTwitter />
+                    </a>
                 </section>
 
 
