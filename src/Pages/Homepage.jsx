@@ -40,7 +40,7 @@ function Homepage() {
 
                 </div>
 
-                <div className="w-1/2 flex items-center justify-center ">
+                <div className="w-1/3 flex items-center justify-center rounded-lg ">
                     <img src={learn} alt="homepage" />
 
                 </div>
