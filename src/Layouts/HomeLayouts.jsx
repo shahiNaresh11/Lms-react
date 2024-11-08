@@ -34,12 +34,12 @@ function HomeLayout({ children }) {
 
     }
 
-    function handleLogout(){
+    function handleLogout() {
         e.preventDefault();
 
         // const res = await dispatch(logout());
         // if(res?.payload?.sucess)
-            navigate("/")
+        navigate("/")
 
     }
 
@@ -58,7 +58,7 @@ function HomeLayout({ children }) {
                 </div>
                 <div className="drawer-side w-0">
                     <label htmlFor="my-drawer" className="drawer-overlay"></label>
-                    <ul className='menu p-4 w-48 sm:w-80 bg-base-100 text-base-content relative'>
+                    <ul className='menu p-4 w-48 h-[100%] sm:w-80 bg-base-100 text-base-content relative'>
                         <li className='w-fit absolute right-2 z-50'>
                             <button onClick={hideDrawer}>
                                 <AiFillCloseCircle size={24} />
@@ -88,7 +88,7 @@ function HomeLayout({ children }) {
 
                         {!isLoggedIn && (
 
-                            <div className="w-full flex items-center justify-center space-x-4">
+                            <div className="w-full flex mt-[422px] items-center justify-center space-x-4">
                                 <Link to="/login" className="w-full">
                                     <button className="btn btn-primary px-4 py-1 font-semibold rounded-md w-full">
                                         Login
@@ -107,7 +107,7 @@ function HomeLayout({ children }) {
 
                         {isLoggedIn && (
 
-                            <div className="w-full flex items-center justify-center space-x-4">
+                            <div className="w-full flex mt-[432px] items-center justify-center space-x-4">
                                 <Link to="/user/profile" className="w-full">
                                     <button className="btn btn-primary px-4 py-1 font-semibold rounded-md w-full">
                                         profile
