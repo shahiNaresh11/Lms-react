@@ -72,10 +72,10 @@ function SignUp() {
             return;
         }
 
-        if (!signupData.password.match(/^(?=.{6,16})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[\W])/)) {
-            toast.error("Password should be 6-16 characters long with at least one special character");
-            return;
-        }
+        // if (!signupData.password.match(/^(?=.{6,16})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[\W])/)) {
+        //     toast.error("Password should be 6-16 characters long with at least one special character");
+        //     return;
+        // }
 
 
         const formData = new FormData();
