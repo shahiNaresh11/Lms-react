@@ -40,6 +40,7 @@ export const createCourse = asyncHandler(async (req, res, next) => {
     description,
     category,
     createdBy,
+    thumbnail,
   });
 
   if (!course) {
